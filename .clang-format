@@ -1,0 +1,24 @@
+---
+# We'll use defaults from the LLVM style, but with 4 columns indentation.
+BasedOnStyle: Microsoft
+IndentWidth: 4
+---
+Language: Cpp
+# Force pointers to the type for C++.
+DerivePointerAlignment: false
+PointerAlignment: Left
+ColumnLimit: 100
+# 访问说明符(public、private等)的偏移(缩进或者对齐)
+AccessModifierOffset:	-4
+# 开括号(开圆括号、开尖括号、开方括号)后的对齐: Align, DontAlign, AlwaysBreak(总是在开括号后换行)
+AlignAfterOpenBracket:	Align
+# 对齐结构体数组 Left   Right    None
+AlignArrayOfStructures: Left
+# 连续赋值时，对齐所有等号
+AlignConsecutiveAssignments:	true
+# 对其尾部注视 Kind的值可以选择为：Leave，Always，Never
+# 允许短语法块在单行上
+AllowShortBlocksOnASingleLine: Always
+# case块缩进
+IndentCaseBlocks: false
+---
