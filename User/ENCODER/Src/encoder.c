@@ -16,7 +16,6 @@
 
 #include "encoder.h"
 
-#include "encoder.h"
 
 // 全局变量存储速度
 float motor_speed = 0.0f;

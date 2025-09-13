@@ -31,6 +31,7 @@
         "led.h": "c",
         "math.h": "c",
         "pid.h": "c",
-        "mpu6050.h": "c"
+        "mpu6050.h": "c",
+        "cmath": "c"
     }
 }

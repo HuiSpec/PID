@@ -5,6 +5,7 @@
 #include "main.h"
 #include "pid.h"
 #include "tim.h"
+#include <math.h>
 
 // 编码器分辨率（每转一圈的脉冲数）
 #define PULSES_PER_REVOLUTION 11.0f
